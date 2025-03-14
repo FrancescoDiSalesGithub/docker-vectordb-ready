@@ -1,0 +1,7 @@
+version: '3.6'
+services:
+  chroma:
+    image: chroma-core/chroma
+    ports:
+      - 8000:8000
+      
